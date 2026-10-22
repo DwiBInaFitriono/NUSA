@@ -9,6 +9,15 @@
 
 ## About Laravel
 
+## PHP Runtime Security Requirement
+
+For production deployments, run this application on a patched PHP release from the October 21, 2026 security update.
+
+- Supported line for this repository: **PHP 8.3.36 or newer in the 8.3 series**
+- Do not use PHP 8.6 release candidates in production
+
+After updating your hosting/runtime version, restart all PHP workers/processes (PHP-FPM, Apache, or equivalent) so the patched runtime is fully applied.
+
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
